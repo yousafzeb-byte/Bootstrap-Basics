@@ -1,0 +1,108 @@
+/* General Page Styling */
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #333;
+}
+
+/* Navbar Customization */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Registration Form Section */
+.container h2 {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: 500;
+}
+
+form .btn-success {
+  width: 100%;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form .btn-success:hover {
+  background-color: #198754;
+  transform: translateY(-2px);
+}
+
+/* Table Styling */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e8f0ff;
+}
+
+/* Image and Button Section */
+.container-fluid.bg-light {
+  border-top: 2px solid #e3e3e3;
+}
+
+.container-fluid img {
+  max-width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-fluid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-fluid button {
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 8px 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container-fluid button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+  }
+
+  .container-fluid img {
+    max-width: 150px;
+  }
+}
